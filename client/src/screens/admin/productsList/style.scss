@@ -1,0 +1,82 @@
+$white: #ffffff;
+$black: #000000;
+$primary1: #f0d43a;
+$primary2: #3b4a6b;
+$textCol: #1f1f1f;
+
+.productslist_section {
+    margin: 70px auto;
+    width: 90%;
+
+    .heading_container {
+        align-items: center;
+        margin-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+        // padding: 40px 160px 20px 160px;
+
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        button {
+            margin: 10px 20px;
+        }
+    }
+
+    .buttons {
+        margin: 0px 20px;
+        padding: 10px 20px;
+    }
+
+    .displayProducts_container {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+
+        .table {
+            width: 90%;
+            table-layout: fixed;
+            text-align: center;
+            margin: auto;
+            border-width: 0.1px;
+            border-style: solid;
+            vertical-align: middle;
+
+        }
+
+        .table tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+
+        .table_head {
+            height: 50px;
+            text-align: center;
+            border-radius: 15px;
+            background-color: rgb(199, 199, 199);
+            vertical-align: auto;
+        }
+
+        .table_row {
+            td {
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+                vertical-align: auto;
+            }
+
+            img {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                max-width: 100px;
+            }
+
+            .actions-buttons {
+                padding: 0 10px;
+                vertical-align: middle;
+            }
+        }
+    }
+}

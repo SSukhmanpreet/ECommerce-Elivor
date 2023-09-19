@@ -1,0 +1,128 @@
+$white: #ffffff;
+$black: #000000;
+$primary1: #f0d43a;
+$primary2: #3b4a6b;
+$textCol: #1f1f1f;
+$borderRadius: 15px;
+$btnColor: #04AA6D;
+
+.allOrders_page {
+    margin: 60px auto 0px auto;
+
+    .heading_container1 {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 40px 160px 0px 160px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .heading_container2 {
+        font-size: 20px;
+        width: 90%;
+        margin: 0px auto;
+        margin-left: 150px;
+
+    }
+
+    .ordersList {
+        width: 90%;
+        margin: 0px auto;
+        padding-bottom: 50px;
+
+        .indv_order {
+            margin: 30px;
+            margin-bottom: 0px;
+            padding: 10px 15px;
+            background-color: #ededed;
+            border-radius: $borderRadius;
+            background-color: #1976d266;
+
+            .order_status {
+                display: flex;
+
+                h2 {
+                    margin: 5px 15px;
+                }
+            }
+
+            .order_status {
+                padding: 10px 10px 0 10px;
+            }
+
+            .order_orderDetails {
+                display: flex;
+                flex: 1;
+                padding: 10px 20px;
+                margin: 0px 50px;
+                // background-color: #1976d266;
+                // border-radius: $borderRadius;
+
+
+                .order_items {
+                    display: flex;
+                    flex: 1;
+                    margin: 5px 10px;
+
+                    .orderItem {
+                        display: flex;
+                        flex: 0.5;
+                        margin: 5px 10px;
+                        padding: 20px;
+                        border-radius: 15px;
+                        justify-content: center;
+                        background-color: #1976d266;
+                        border-radius: $borderRadius;
+
+                        .product_image {
+                            flex: 1;
+                            max-width: 100px;
+                            max-height: 200px;
+                            margin-right: 30px;
+                        }
+
+                        .orderProduct_Details {
+                            flex: 0.6;
+                            padding: 10px;
+                            justify-content: center;
+                        }
+                    }
+                }
+
+                .order_total {
+                    flex: 0.2;
+                    margin: 5px 0px;
+                    margin-right: 10px;
+
+                    strong {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .order_otherDetails {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                padding: 10px;
+                margin: 0px 50px;
+
+                .order_userDetails,
+                .order_addressDetails,
+                .order_paymentDetails {
+                    flex: 0.5;
+                    margin: 5px 20px;
+
+                    h4 {
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

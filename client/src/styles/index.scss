@@ -1,0 +1,96 @@
+@import "variables.scss";
+
+@font-face {
+  font-family: Arial;
+  src: url(../fonts/arial.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Arial-Bold;
+  src: url(../fonts/Arial_Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url(../fonts/Lato-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../fonts/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+}
+
+body {
+  font-family: Roboto-Regular, sans-serif !important;
+  background-color: $screen-background !important;
+  top: 0 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-bottom: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
+
+// a {
+//   text-decoration: none;
+//   cursor: pointer;
+
+//   &:hover {
+//     color: $primary-color;
+//   }
+// }
+
+.main-container {
+  padding-top: 0px;
+
+  &.secured {
+    padding-top: 40px;
+  }
+
+  &.no-header {
+    padding-top: 0;
+  }
+}
+
+// .container {
+//   width: 85%;
+//   margin: auto;
+// }
+

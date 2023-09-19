@@ -1,0 +1,102 @@
+// $white: #ffffff;
+// $black: #000000;
+// $primary1: #f0d43a;
+// $primary2: #3b4a6b;
+// $textCol: #1f1f1f;
+.link {
+    border-radius: 10px;
+    color: #deeade;
+    text-decoration: none;
+
+    .brandLogo {
+        max-width: 150px;
+        border-radius: 10px;
+    }
+}
+
+// .appbarStyle{
+//     background: #deeade;
+// }
+.link:hover {
+    color: rgb(255, 213, 0);
+}
+
+.iconbuttons>* {
+    color: #deeade;
+
+    &:hover {
+        color: rgb(255, 213, 0);
+    }
+}
+
+// .linkClass {
+//     color: white;
+//     background-color: red;
+// }
+// .linkClass:hover{
+//     color: yellow
+// }
+
+// .header_section {
+//     background-color: antiquewhite;
+//     padding: 15px 0;
+//     display: flex;
+//     flex-direction: column;
+//     padding-right: 25px;
+//     padding-left: 25px;
+
+//     .custom_nav {
+//         .brand_logo {
+//             float: left;
+//             width: 20%;
+
+//             span {
+//                 font-weight: bold;
+//                 color: $black;
+//                 font-size: 24px;
+//             }
+//         }
+
+//         .navbar_collapse {
+//             float: left;
+//             width: 80%;
+
+
+//             .nav_item {
+//                 display: inline-block;
+//                 float: left;
+//                 width: 50%;
+//                 align-items: center;
+//                 line-height: 40px;
+//                 margin: auto;
+
+//                 &:hover,
+//                 &.active {
+//                     a {
+//                         color: $primary1;
+//                         background-color: $white;
+//                     }
+//                 }
+//             }
+
+//             .user_option_box {
+//                 display: flex;
+//                 justify-content: right;
+//                 float: right;
+//                 width: 50%;
+
+//                 a {
+//                     color: $black;
+//                     text-transform: uppercase;
+//                     margin-left: 15px;
+//                     font-size: 17px;
+
+//                     &:hover,
+//                     &.active {
+//                         color: $primary2;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

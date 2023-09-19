@@ -1,0 +1,121 @@
+$white: #ffffff;
+$black: #000000;
+$primary1: #f0d43a;
+$primary2: #3b4a6b;
+$textCol: #1f1f1f;
+$primary3: #002c3e;
+
+.footer_section {
+    background-color: #1b5159;
+    color: $white;
+    width: 100%;
+    // margin-top: 60px;
+    padding: 10px 70px;
+    text-align: center;
+    justify-content: center;
+
+    .footer_detail {
+        text-align: center;
+        padding: 20px;
+        justify-content: center;
+        color: $white;
+
+        .logo_section {
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #fff;
+
+            .brandLogoFooter {
+                width: 50%;
+                max-width: 500px;
+            }
+
+            h1 {
+                font-size: 40px;
+                color: $white;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0px 200px;
+            padding: 0 150px;
+            overflow: hidden;
+            display: flex;
+            font-size: 15px;
+            justify-content: center;
+        }
+
+        li {
+            flex: 1;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            width: 150px;
+            text-decoration: none;
+            font-size: 20px;
+
+            &:hover {
+                color: rgb(255, 213, 0);
+            }
+        }
+
+        .footer_social {
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            justify-content: center;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $primary2;
+                width: 40px;
+                height: 40px;
+                background-color: $white;
+                border-radius: 100%;
+                margin-right: 15px;
+
+                &:hover {
+                    color: $primary1;
+                }
+            }
+
+            h2 {
+                color: $white;
+                padding: 0px 30px 0 20px;
+            }
+        }
+    }
+
+    .footer_info {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0;
+        .brandLogoCopyright {
+            max-width: 100px;
+            padding-bottom: 5px;
+        }
+
+        p {
+            padding: 25px 0;
+            color: rgb(148, 148, 148);
+        }
+
+        small {
+            font-size: 10px;
+
+        }
+    }
+
+    h4 {
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: $white;
+    }
+}

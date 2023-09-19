@@ -1,0 +1,35 @@
+.productByCategory_page {
+    margin: 60px auto 0 auto;
+
+    .product_section_container {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+
+        .heading_container {
+            align-items: center;
+            margin-bottom: 20px;
+            text-align: center;
+
+            h3 {
+                text-align: center;
+                font-size: 40px;
+                font-weight: 600;
+            }
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            transition: all .3s;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+
+            .box {
+                max-width: 200px;
+                background-color: #eaeaea;
+            }
+        }
+    }
+}

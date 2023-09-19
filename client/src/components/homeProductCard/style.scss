@@ -1,0 +1,20 @@
+.buttons {
+    padding: '5px';
+    justify-content: center;
+    text-align: center;
+}
+
+.cards {
+    transition: all 1s ease-out;
+    background-color: red;
+}
+
+.cards:hover {
+    transition: all 1s ease-out;
+
+    .cardMedias image {
+        transform: scale(1.05);
+        transition: all 1s ease-out;
+
+    }
+}

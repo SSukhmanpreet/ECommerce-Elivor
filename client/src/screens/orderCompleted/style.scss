@@ -1,0 +1,63 @@
+$white: #ffffff;
+$black: #000000;
+$primary1: #f0d43a;
+$primary2: #3b4a6b;
+$textCol: #1f1f1f;
+$borderRadius: 15px;
+
+.orderConfirm_page {
+    width: 85%;
+    margin: auto;
+
+    .order_confirmation_message {
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    .order_summary {
+        padding-bottom: 10px;
+        border-radius: $borderRadius;
+        background-color: cornsilk;
+
+        .order_summary_text {
+            padding: 30px;
+            padding-bottom: 0px;
+
+            h2 {
+                font-size: 30px;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+        }
+
+        .cart_products {
+            padding: 30px;
+
+            img {
+                width: 100px;
+                height: 130px;
+            }
+        }
+    }
+
+    .order_help {
+        padding: 30px;
+
+        .contact_link_box {
+            .contact_list {
+                li {
+                    display: inline;
+                    margin: 10px;
+                }
+
+                display: inline;
+            }
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+    }
+}

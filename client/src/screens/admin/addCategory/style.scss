@@ -1,0 +1,96 @@
+.addCategory_page {
+    margin: 70px auto;
+    width: 90%;
+
+    .heading_container {
+        align-items: center;
+        margin-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        button {
+            margin: 10px 20px;
+        }
+    }
+
+    .buttons {
+        margin: 0px 20px;
+        padding: 10px 20px;
+    }
+
+    .addCategory_page_content {
+        display: flex;
+
+        .addCategory_container {
+            flex: 1;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07);
+            background-color: rgba(0, 0, 0, 0.062);
+            margin: 20px;
+            padding: 20px;
+
+            .form_section {
+                padding: 20px;
+                margin: 20px;
+                display: grid;
+            }
+            h4,
+            Button {
+                width: auto;
+                margin: 10px 0px;
+                padding: 10px;
+            }
+        }
+
+        .displayCategory_container {
+            flex: 1;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07);
+            background-color: rgba(0, 0, 0, 0.062);
+            margin: 20px;
+            padding: 20px;
+            justify-content: center;
+
+            .table {
+                margin: 20px;
+                padding: 20px;
+                width: 95%;
+                table-layout: auto;
+                text-align: center;
+                border: 1px solid;
+            }
+
+            .table_head {
+                height: 50px;
+                text-align: center;
+                border-radius: 15px;
+                background-color: rgb(199, 199, 199);
+            }
+
+            .table tr:nth-child(even) {
+                background-color: rgb(228, 228, 228);
+            }
+
+            .table_row {
+                th {
+                    width: 2px;
+                    max-width: 20px;
+                }
+
+                td {
+                    text-align: center;
+                    margin: 10px;
+                    padding: 10px;
+                }
+
+                .actions-buttons {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
